@@ -8,30 +8,14 @@ function portfolioPageLoaded(args) {
     
     contactBtn.animate({
        scale: { x: 0.8, y: 0.8 },
-       duration: 900
+       duration: 1200,
+       iterations: Number.POSITIVE_INFINITY
     })
     .then(function(){
         return contactBtn.animate({
-            scale: { x: 0.5, y: 0.5 },
-        	duration: 900
-        })
-    })
-    .then(function(){
-        return contactBtn.animate({
-            scale: { x: 0.8, y: 0.8 },
-        	duration: 900
-        })
-    })
-    .then(function(){
-        return contactBtn.animate({
-            scale: { x: 0.5, y: 0.5 },
-        	duration: 900
-        })
-    })
-    .then(function(){
-        return contactBtn.animate({
-            scale: { x: 0.8, y: 0.8 },
-        	duration: 900
+            scale: { x: 0.6, y: 0.6 },
+        	duration: 1200,
+            iterations: Number.POSITIVE_INFINITY
         })
     });
     
