@@ -1,14 +1,11 @@
-'use strict'
-var _extends = require("../../utils/extends/extends"),
-    observable = require("data/observable");
+'use strict';
+var InfoViewModel, 
+    Observable = require('data/observable').Observable;
 
-function InfoViewModel() {
-    observable.Observable.apply(this, arguments);
-}
+InfoViewModel = new Observable({
+    personalInformation: {},
+    
+    books: []                                                                               
+});
 
-_extends(InfoViewModel, observable.Observable);
-
-InfoViewModel.prototype.personalInformation = {};
-InfoViewModel.prototype.books = [];
-
-module.exports = new InfoViewModel();
+module.exports = InfoViewModel;
