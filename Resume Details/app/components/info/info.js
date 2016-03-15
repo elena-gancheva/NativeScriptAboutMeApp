@@ -1,6 +1,5 @@
 'use strict'
 var infoService = require("../info/info-service"),
-    dialogs = require("ui/dialogs"),
     observable = require("data/observable"),
     infoViewModel = require("../info/info-view-model");
 
