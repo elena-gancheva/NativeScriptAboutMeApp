@@ -1,0 +1,27 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="portfolioPageLoaded">
+    <page.actionBar>
+        <action-bar>
+           <ActionBar.titleView>
+                <Label text="Portfolio" cssClass="custom-action-bar" id="title"/>
+            </ActionBar.titleView>
+        </action-bar>
+    </page.actionBar>
+    <ScrollView>
+        <StackLayout orientation="vertical">
+      		<Label text="Skills Lables" cssClass="main-skills-label" />
+            <Button text="View on LinkedIn" id="contact-btn" cssClass="linkedin-btn" marginTop="25" marginBottom="25" tap="{{ onContactTap }}"></Button>
+            <Label text="javaScript" cssClass="skills-label" />
+            <Label text="ES2015" cssClass="skills-label" />
+            <Label text="jQuery" cssClass="skills-label" />
+            <Label text="New in NativeScript :)" cssClass="skills-label" />
+            <Label text="New in Angular 2 :)" cssClass="skills-label" />
+            <Label text="New in React js :)" cssClass="skills-label" />
+            <Label text="HTML" cssClass="skills-label" />
+            <Label text="CSS" cssClass="skills-label" />
+            <Label text="UX design" cssClass="skills-label" />
+            <Label text="Responsive design" cssClass="skills-label" />
+            <Label text="Photoshop" cssClass="skills-label" />
+            <Label text="Not my favourite but.. C#" cssClass="skills-label" />
+        </StackLayout> 
+    </ScrollView>
+</Page>

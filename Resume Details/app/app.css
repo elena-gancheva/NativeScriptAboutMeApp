@@ -102,11 +102,62 @@ switch {
     text-align: center;
 }
 
+.about-label {
+    width: 250px;
+    padding: 20px;
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+}
 
-/* START_CUSTOM_CODE_nativeScriptApp */
+.name-label {
+    color: #1ABC9C;
+    margin-bottom: 15px;
+}
 
+.personal-label {
+    background-color: #3498DB;
+}
 
-/* Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes */
+.resume-label {
+    background-color: #9b59b6;
+    margin-bottom: 15px;
+}
 
+.main-skills-label {
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
 
-/* END_CUSTOM_CODE_nativeScriptApp */
+.skills-label {
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    background-color: #6ED3CF;
+    margin: 5px;
+    color: #fff;
+}
+
+.linkedin-btn {
+    width: 200px;
+    background-color: #9068be;
+    text-align: center;
+    color: #fff;
+}
+
+.total-books-label {
+    color: #1ABC9C;
+    padding-left: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.book-title {
+    color: #3498DB;
+    font-size: 18px;
+    text-align: center;
+}
+.custom-action-bar {
+	font-size: 15;
+}

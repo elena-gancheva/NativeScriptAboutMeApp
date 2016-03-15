@@ -1,0 +1,20 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="infoPageLoaded">
+    <page.actionBar>
+        <action-bar>
+           <ActionBar.titleView>
+                <Label text="My Google books" cssClass="custom-action-bar" id="title"/>
+            </ActionBar.titleView>
+        </action-bar>
+    </page.actionBar>
+    <ScrollView>
+        <Label text="items" cssClass="total-books-label" />
+        <ListView items="{{ books }}" id="my-books" isScrollings="true">
+            <ListView.itemTemplate>
+                <StackLayout orientation="horizontal" padding="15">
+                    <Image src="{{ volumeInfo.imageLinks.smallThumbnail }}" horizontalAlignment="left" width="80" height="140" />
+                    <Label text="{{ volumeInfo.title }}" cssClass="book-title" marginLeft="10" verticalAlignment="center" horizontalAlignment="center"/>
+                </StackLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </ScrollView>
+</Page>

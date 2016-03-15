@@ -3,16 +3,15 @@
   "views": [
     {
       "type": "NativeScript:view",
-      "name": "homeView",
+      "name": "resume",
       "components": [],
-      "title": "Home View",
-      "addToNavigation": true,
-      "icon": "home"
+      "title": "About me",
+      "addToNavigation": false
     }
   ],
   "dataProviders": [],
   "name": "nativeScriptApp",
-  "navigation": "listmenu",
-  "transition": "none",
+  "navigation": "none",
+  "view": "resume",
   "skin": "native"
 }

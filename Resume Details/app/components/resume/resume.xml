@@ -1,0 +1,17 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:widgets="utils/widgets" loaded="pageLoaded">
+   <page.actionBar>
+        <action-bar>
+           <ActionBar.titleView>
+                <Label text="About" cssClass="custom-action-bar" id="title"/>
+            </ActionBar.titleView>
+        </action-bar>
+    </page.actionBar>
+	<ScrollView>
+        <StackLayout orientation="vertical">
+            <Image src="~/images/gancheva-img.jpg" width="250" height="200" />
+            <Label text="Elena Gancheva" cssClass="about-label name-label"/>
+            <Label text="Skills review" cssClass="about-label resume-label" tap="goToPortfolioView"/>
+            <Label text="My Google books" cssClass="about-label personal-label" tap="goToPersonalInformation"/>
+        </StackLayout> 
+    </ScrollView> 
+</Page>

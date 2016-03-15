@@ -3,13 +3,9 @@ var menuItems,
     observable = require('data/observable'),
     navigationViewModel = new observable.Observable();
 
-menuItems = [{
-    "title": "Home View",
-    "moduleName": "components/homeView/homeView",
-    "icon": "\ue0dd"
-}];
+menuItems = [];
 
 navigationViewModel.set('menuItems', menuItems);
-navigationViewModel.set('backButtonHidden', true);
+navigationViewModel.set('backButtonHidden', false);
 
 module.exports = navigationViewModel;
